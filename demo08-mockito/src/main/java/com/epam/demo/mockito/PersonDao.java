@@ -5,5 +5,5 @@ public interface PersonDao {
 
     public void update(Person person) throws MyDbException;
 
-    public void delete(Person personId) throws MyDbException;
+    public void delete(Person person) throws MyDbException;
 }

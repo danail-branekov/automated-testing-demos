@@ -26,7 +26,7 @@ public class PersonService {
         return updatedPerson;
     }
 
-    public void buldUpdate(Map<Integer, String> nameUpdates) throws MyDbException, NoSuchPersonException {
+    public void bulkUpdate(Map<Integer, String> nameUpdates) throws MyDbException, NoSuchPersonException {
         for(Entry<Integer, String> updateEntry : nameUpdates.entrySet()) {
             update(updateEntry.getKey(), updateEntry.getValue());
         }
