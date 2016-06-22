@@ -1,5 +1,6 @@
 package com.epam.atomatedtesting.junit4.assertions;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -42,11 +43,13 @@ public class AssertionsDemoTest {
         assertNotSame("My string should not be the same as an equal new string", myString, new String("my-string"));
     }
 
+    @Ignore("make Maven happy")
     @Test
     public void assertFailureDemo() {
         assertEquals("I was expecting something else", "expected", "not-really-expected");
     }
 
+    @Ignore("make Maven happy")
     @Test
     public void failDemo() {
         fail("You shall not pass!");
