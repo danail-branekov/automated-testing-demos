@@ -1,4 +1,4 @@
-package com.epam.tools.output;
+package com.epam.atomatedtesting.junit4.annotations;
 
 public class DemoOutput {
     public static void soutAndDelay(String message) {

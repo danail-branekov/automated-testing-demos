@@ -2,7 +2,7 @@ package com.epam.atomatedtesting.junit4.annotations;
 
 import org.junit.*;
 
-import static com.epam.tools.output.DemoOutput.soutAndDelay;
+import static com.epam.atomatedtesting.junit4.annotations.DemoOutput.soutAndDelay;
 
 public class AnnotationsMultipleDemoTest {
     @BeforeClass
