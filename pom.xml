@@ -18,6 +18,7 @@
         <module>demo06-parameterized-test</module>
         <module>demo07-stubs</module>
         <module>demo08-mockito</module>
+        <module>homework-belote</module>
     </modules>
 
     <dependencies>
